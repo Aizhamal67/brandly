@@ -1,0 +1,115 @@
+.banner {
+  min-height: 880px;
+  color: #fff;
+  background-image: url(https://s3-alpha-sig.figma.com/img/b74a/d58d/554183d548f7c44f8bbc8f0eec285f34?Expires=1649030400&Signature=ciWeqse1X3KpJb99cYVT-TE4cuTkZw6vteaYRTZdmWK1kZJaPWZ9UkLjcFL2WIpJxkWzuzexDarJ5wOsyQvDVs~JjvZereksev7j19nCwgk1BxgNJv2UTLK7~nxFFmp57nZFpLo4RZsD87ywNGdHhrcn7FxuozFIaLB1H0f6~BTYFL2vPSWi8x2mSCRFSUR56Oiz0GP0dJZyxkh3rthbnYQvPeGqvTuQvRaDQibePSC7xguVp2kkxd-7t0yCOD6ZzO8nmxblJnYfr7XwJm18A9zPNahbJAsSnMjqHNqBKD7quF9Nyt~jjQtlGk3KQq31TKqhDDhE4IgEMIFYzcF1eQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.complex-grid img {
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.hero-1 {
+  position: absolute;
+  width: 1440px;
+  height: 30px;
+  left: 600px;
+  top: 300px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-2 {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  left: 600px;
+  top: 370px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 60px;
+  /* identical to box height, or 109% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-3 {
+  position: absolute;
+  width: 1440px;
+  height: 30px;
+  left: 600px;
+  top: 490px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+
+.btn-hero {
+  position: absolute;
+  width: 213px;
+  height: 60px;
+  left: 1213px;
+  top: 586px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  border: medium 1em;
+  background-image: none;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  /* identical to box height, or 100% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.d-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+h5 b {
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card1 {
+  margin-left: 635px;
+}
